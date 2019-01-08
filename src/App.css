@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-header {
-  background-color: #000000;
+  background-color: #833552;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -18,14 +19,16 @@
 .App-question {
   font-weight: 600;
   letter-spacing: 1px;
-  position: relative;
   text-align: center;
-  width: 30%;
-  margin: 20px auto;
+  width: 100%;
+  height: 100vh;
   color: white;
   background-image: linear-gradient(to bottom, #E36572, #2F0934);
-  box-sizing: border-box;
-  border-radius: 23px;
+  /* position: relative; */
+  /* position: absolute; */
+  /* margin: 20px auto; */
+  /* box-sizing: border-box; */
+  /* border-radius: 6px; */
 }
 
 label::after {
@@ -38,8 +41,13 @@ label::after {
 }
 
 .spacing-top-padding {
+  margin: 0;
   padding-top: 20px;
   font-weight: 400;
+}
+
+.button-bottom {
+  margin-bottom: 6px;
 }
 
 /* @keyframes App-logo-spin {
